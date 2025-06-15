@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577471f3ecd1ec94b8a0d67218386f4a, type: 3}
+  m_Name: GameFrameworkGlobalSettings
+  m_EditorClassIdentifier: 
+  m_FrameworkGlobalSettings:
+    m_ScriptAuthor: Default
+    m_ScriptVersion: 0.1
+    m_AppStage: 1
+    m_ResourcesArea:
+      m_ResAdminType: Default
+      m_ResAdminCode: 0
+      m_ServerType: 1
+      m_CleanCommitPathRes: 1
+      m_InnerResourceSourceUrl: http://127.0.0.1:8081
+      m_ExtraResourceSourceUrl: http://127.0.0.1:8081
+      m_FormalResourceSourceUrl: http://127.0.0.1:8081
+    m_AtlasFolder: Assets/AssetRaw/Atlas
+    WindowsAppUrl: http://127.0.0.1
+    MacOSAppUrl: http://127.0.0.1
+    IOSAppUrl: http://127.0.0.1
+    AndroidAppUrl: http://127.0.0.1
+    m_CurUseServerChannel: 
+    m_ServerChannelInfos: []
+  m_HybridCLRCustomGlobalSettings:
+    m_Enable: 0
+    HotUpdateAssemblies:
+    - GameBase.dll
+    - GameProto.dll
+    - GameLogic.dll
+    AOTMetaAssemblies:
+    - mscorlib.dll
+    - System.dll
+    - System.Core.dll
+    - UnityEngine.CoreModule.dll
+    - YooAsset.dll
+    - UniTask.dll
+    - UnityGameFramework.Runtime.dll
+    LogicMainDllName: GameLogic.dll
+    AssemblyTextAssetExtension: .bytes
+    AssemblyTextAssetPath: AssetRaw/DLL
+    HybridCLRGlobalSettings: Settings/HybridCLRGlobalSettings
