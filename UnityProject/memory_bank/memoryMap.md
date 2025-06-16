@@ -1,43 +1,29 @@
-# Memory Bank 文档索引
+# Memory Map - 文档索引
 
-这个文件用于快速索引和查阅相关文档。
+## 项目文档索引
 
-## UI框架相关文档
+### MCP配置相关
+- [MCP服务器配置说明.md](./MCP服务器配置说明.md) - Claude Code MCP服务器配置指南
 
-### [UI框架重构说明.md](./UI框架重构说明.md)
-- **内容**: 去除UIGroup管理，改用Order管理层级的完整重构说明
-- **关键词**: UIGroup, Order, 层级管理, 重构
-- **修改范围**: UIManager, IUIManager, UIComponent, OpenUIFormInfo
-- **使用场景**: 了解UI框架的整体重构思路和实现细节
+### UI系统相关  
+- [UI实例根节点设置修改说明.md](./UI实例根节点设置修改说明.md) - UI实例根节点设置修改说明
+- [UI框架重构说明.md](./UI框架重构说明.md) - UI框架重构说明文档
 
-### [UI实例根节点设置修改说明.md](./UI实例根节点设置修改说明.md)
-- **内容**: 确保UI界面父节点设置为m_InstanceRoot的修改说明
-- **关键词**: m_InstanceRoot, 父节点, CreateUIForm, UIFormHelper
-- **修改范围**: IUIFormHelper, UIFormHelperBase, DefaultUIFormHelper, UIManager, UIComponent
-- **使用场景**: 了解UI实例创建时父节点设置的实现细节
+### 项目架构分析
+- [GameFramework-Next项目架构分析.md](./GameFramework-Next项目架构分析.md) - 完整的项目架构分析和关键数据记录
 
-## 快速查阅指南
+## 快速导航
 
-### 如果你想了解：
+### 配置管理
+- MCP服务器配置：参考 MCP服务器配置说明.md
+- Luban配置系统：查看项目根目录 Configs/GameConfig/
 
-#### UI层级管理
-- 查阅: [UI框架重构说明.md](./UI框架重构说明.md)
-- 关注: Order系统、深度管理、UIGroup替换
+### 框架核心
+- 启动流程：UnityProject/Assets/GameScripts/Runtime/Procedure/
+- 热更新逻辑：UnityProject/Assets/GameScripts/HotFix/GameLogic/
+- UI系统：UnityProject/Assets/GameScripts/HotFix/GameLogic/System/UISystem/
+- 项目架构概览：参考 GameFramework-Next项目架构分析.md
 
-#### UI创建流程
-- 查阅: [UI实例根节点设置修改说明.md](./UI实例根节点设置修改说明.md)
-- 关注: CreateUIForm方法、父节点设置、实例根节点
-
-#### 向后兼容性
-- 查阅: 两个文档都有相关说明
-- 关注: 废弃方法标记、兼容性实现
-
-#### 使用示例
-- 查阅: [UI框架重构说明.md](./UI框架重构说明.md) 的使用示例部分
-- 关注: 新旧API对比、迁移指南
-
-## 文档更新记录
-
-- 2025/6/15: 创建UI框架重构说明文档
-- 2025/6/15: 创建UI实例根节点设置修改说明文档
-- 2025/6/15: 创建memoryMap.md索引文档
+### 开发工具
+- 构建脚本：Tools/
+- 编辑器工具：UnityProject/Assets/GameScripts/Editor/
