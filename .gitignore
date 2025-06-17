@@ -18,3 +18,9 @@ Configs/.cache.meta
 GenerateDatas/
 
 Modules/
+
+# YoYo AI version control directory
+.yoyo/
+
+# VS Code
+.vscode/
