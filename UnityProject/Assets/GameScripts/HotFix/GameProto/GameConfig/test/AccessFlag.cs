@@ -18,6 +18,9 @@ namespace GameConfig.test
         READ = 2,
         TRUNCATE = 4,
         NEW = 8,
+        /// <summary>
+        /// 位标记使用示例
+        /// </summary>
         READ_WRITE = WRITE|READ,
     }
 

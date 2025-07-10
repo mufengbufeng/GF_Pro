@@ -1,8 +1,8 @@
-﻿using System.IO;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
 namespace YooAsset.Editor
 {
@@ -106,11 +106,11 @@ namespace YooAsset.Editor
 
             // 加载补丁清单1
             byte[] bytesData1 = FileUtility.ReadAllBytes(_manifestPath1);
-            PackageManifest manifest1 = ManifestTools.DeserializeFromBinary(bytesData1);
+            PackageManifest manifest1 = ManifestTools.DeserializeFromBinary(bytesData1, null);
 
             // 加载补丁清单1
             byte[] bytesData2 = FileUtility.ReadAllBytes(_manifestPath2);
-            PackageManifest manifest2 = ManifestTools.DeserializeFromBinary(bytesData2);
+            PackageManifest manifest2 = ManifestTools.DeserializeFromBinary(bytesData2, null);
 
             // 拷贝文件列表
             foreach (var bundle2 in manifest2.BundleList)
