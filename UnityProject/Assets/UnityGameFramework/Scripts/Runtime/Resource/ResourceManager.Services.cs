@@ -87,6 +87,11 @@ namespace GameFramework.Resource
                 };
             }
 
+            public DecryptResult LoadAssetBundleFallback(DecryptFileInfo fileInfo)
+            {
+                throw new System.NotImplementedException();
+            }
+
             public byte[] ReadFileData(DecryptFileInfo fileInfo)
             {
                 return File.ReadAllBytes(fileInfo.FileLoadPath);
@@ -149,6 +154,11 @@ namespace GameFramework.Resource
                     CreateRequest = createRequest,
                     ManagedStream = null
                 };
+            }
+
+            public DecryptResult LoadAssetBundleFallback(DecryptFileInfo fileInfo)
+            {
+                throw new System.NotImplementedException();
             }
 
             public byte[] ReadFileData(DecryptFileInfo fileInfo)
