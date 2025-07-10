@@ -21,6 +21,11 @@ public class GameModule : MonoBehaviour
     public static DebuggerComponent Debugger { get; private set; }
 
     /// <summary>
+    /// 获取数据组件。
+    /// </summary>
+    public static DataComponent Data { get; private set; }
+
+    /// <summary>
     /// 获取下载组件。
     /// </summary>
     public static DownloadComponent Download { get; private set; }
@@ -120,6 +125,7 @@ public class GameModule : MonoBehaviour
     {
         Base = Get<BaseComponent>();
         Debugger = Get<DebuggerComponent>();
+        Data = Get<DataComponent>();
         Download = Get<DownloadComponent>();
         Entity = Get<EntityComponent>();
         Event = Get<EventComponent>();
@@ -156,9 +162,9 @@ public class GameModule : MonoBehaviour
             return (T)component;
         }
 
-        component = UnityGameFramework.Runtime.GameSystem.GetComponent<T>();
+        component = GameSystem.GetComponent<T>();
 
-        Log.Assert(condition: component != null, $"{typeof(T)} is null");
+        Log.Assert(condition: component != null, retStr: $"{typeof(T)} is null");
 
         s_Components.Add(type, component);
 

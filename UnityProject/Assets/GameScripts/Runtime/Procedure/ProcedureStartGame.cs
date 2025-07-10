@@ -26,7 +26,7 @@ namespace GameMain
             UILoadMgr.HideAll();
 
             // GameModule.UI.AddUIGroup("Loading");
-            GameModule.UI.OpenUIForm("LoadingStartUIFrom", "Loading");
+            // GameModule.UI.OpenUIForm("LoadingStartUIFrom", "Loading");
         }
     }
 }

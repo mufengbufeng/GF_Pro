@@ -628,53 +628,53 @@ namespace UnityGameFramework.Runtime
         }
 
         // 保持向后兼容的废弃方法
-        [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
-        public int OpenUIForm(string uiFormAssetName, string uiGroupName)
-        {
-            return OpenUIForm(uiFormAssetName, 0);
-        }
+        // [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
+        // public int OpenUIForm(string uiFormAssetName, string uiGroupName)
+        // {
+        //     return OpenUIForm(uiFormAssetName, 0);
+        // }
 
-        [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
-        public int OpenUIForm(string uiFormAssetName, string uiGroupName, int priority)
-        {
-            return OpenUIForm(uiFormAssetName, 0, priority);
-        }
+        // [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
+        // public int OpenUIForm(string uiFormAssetName, string uiGroupName, int priority)
+        // {
+        //     return OpenUIForm(uiFormAssetName, 0, priority);
+        // }
 
-        [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
-        public int OpenUIForm(string uiFormAssetName, string uiGroupName, bool pauseCoveredUIForm)
-        {
-            return OpenUIForm(uiFormAssetName, 0, pauseCoveredUIForm);
-        }
+        // [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
+        // public int OpenUIForm(string uiFormAssetName, string uiGroupName, bool pauseCoveredUIForm)
+        // {
+        //     return OpenUIForm(uiFormAssetName, 0, pauseCoveredUIForm);
+        // }
 
-        [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
-        public int OpenUIForm(string uiFormAssetName, string uiGroupName, object userData)
-        {
-            return OpenUIForm(uiFormAssetName, 0, userData);
-        }
+        // [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
+        // public int OpenUIForm(string uiFormAssetName, string uiGroupName, object userData)
+        // {
+        //     return OpenUIForm(uiFormAssetName, 0, userData);
+        // }
 
-        [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
-        public int OpenUIForm(string uiFormAssetName, string uiGroupName, int priority, bool pauseCoveredUIForm)
-        {
-            return OpenUIForm(uiFormAssetName, 0, priority, pauseCoveredUIForm);
-        }
+        // [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
+        // public int OpenUIForm(string uiFormAssetName, string uiGroupName, int priority, bool pauseCoveredUIForm)
+        // {
+        //     return OpenUIForm(uiFormAssetName, 0, priority, pauseCoveredUIForm);
+        // }
 
-        [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
-        public int OpenUIForm(string uiFormAssetName, string uiGroupName, int priority, object userData)
-        {
-            return OpenUIForm(uiFormAssetName, 0, priority, userData);
-        }
+        // [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
+        // public int OpenUIForm(string uiFormAssetName, string uiGroupName, int priority, object userData)
+        // {
+        //     return OpenUIForm(uiFormAssetName, 0, priority, userData);
+        // }
 
-        [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
-        public int OpenUIForm(string uiFormAssetName, string uiGroupName, bool pauseCoveredUIForm, object userData)
-        {
-            return OpenUIForm(uiFormAssetName, 0, pauseCoveredUIForm, userData);
-        }
+        // [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
+        // public int OpenUIForm(string uiFormAssetName, string uiGroupName, bool pauseCoveredUIForm, object userData)
+        // {
+        //     return OpenUIForm(uiFormAssetName, 0, pauseCoveredUIForm, userData);
+        // }
 
-        [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
-        public int OpenUIForm(string uiFormAssetName, string uiGroupName, int priority, bool pauseCoveredUIForm, object userData)
-        {
-            return OpenUIForm(uiFormAssetName, 0, priority, pauseCoveredUIForm, userData);
-        }
+        // [System.Obsolete("请使用OpenUIForm(string uiFormAssetName, int order, ...)方法")]
+        // public int OpenUIForm(string uiFormAssetName, string uiGroupName, int priority, bool pauseCoveredUIForm, object userData)
+        // {
+        //     return OpenUIForm(uiFormAssetName, 0, priority, pauseCoveredUIForm, userData);
+        // }
 
         /// <summary>
         /// 关闭界面。
