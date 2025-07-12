@@ -2,8 +2,25 @@
   "permissions": {
     "allow": [
       "Bash(echo:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "mcp__repomix__pack_codebase",
+      "mcp__repomix__grep_repomix_output",
+      "mcp__repomix__pack_remote_repository",
+      "mcp__repomix__read_repomix_output",
+      "mcp__serena__get_symbols_overview",
+      "Bash(find:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)"
     ],
     "deny": []
-  }
+  },
+  "enabledMcpjsonServers": [
+    "repomix",
+    "memory",
+    "tavily-mcp",
+    "github-mcp",
+    "context7",
+    "serena"
+  ]
 }
